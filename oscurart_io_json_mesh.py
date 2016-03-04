@@ -19,6 +19,19 @@
 # AUTHOR: Eugenio Pignataro (Oscurart) www.oscurart.com.ar
 # INSTRUCTIONS: Select object for export, and set "save" in action variable, and run. Set action as "load" and hit run for load!
 
+bl_info = {
+    "name": "IO JSON Mesh",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
+
 import bpy
 import json
 

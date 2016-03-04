@@ -18,7 +18,18 @@
 # Usage: create a new object from selected object with shapes.
 # Author: Eugenio Pignataro (Oscurart) www.oscurart.com.ar
 
-
+bl_info = {
+    "name": "Force Apply Modifiers",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
 
 
 import bpy

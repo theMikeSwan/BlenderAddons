@@ -18,6 +18,19 @@
 # Usage: make a edge strand from selected object.
 # Author: Eugenio Pignataro (Oscurart) www.oscurart.com.ar
 
+bl_info = {
+    "name": "Normal Strands",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
+
 import bpy
 
 steps = 20

@@ -22,6 +22,19 @@
 # Uso Instrucciones: Crea un sky conectado a un sun lamp. Seleccionar la lampara y correr.
 # Create a sky connected with a sun lamp. Select a lamp and run.
 
+bl_info = {
+    "name": "Sky World",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
+
 import bpy
 
 if bpy.context.scene.render.engine == 'CYCLES':

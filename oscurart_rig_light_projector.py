@@ -21,6 +21,19 @@
 # Website: www.oscurart.com.ar
 # Usage: select spot or area light and run. Then load the texture in the lamp node tree.
  
+ bl_info = {
+    "name": "Rig Light Projector",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
+ 
 import bpy
  
 ob = bpy.context.object

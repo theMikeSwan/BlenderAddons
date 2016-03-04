@@ -20,6 +20,18 @@
 # Uso Instrucciones: Habilita el uso de texturas para lamparas. Seleccionar un area lamp y correr.
 # Enable textures for area lamps. Select area lamp and run.
 
+bl_info = {
+    "name": "Lamp Specular Texture",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
 
 import bpy
 

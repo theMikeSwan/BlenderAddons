@@ -19,6 +19,19 @@
 # AUTHOR: Eugenio Pignataro (Oscurart) www.oscurart.com.ar
 # Uso Instrucciones: Sirve para guardar librerias de materiales basicos. Script aun inestable. En la linea final hay que descomentar la funcion a ejecutar.
 
+bl_info = {
+    "name": "IO Materials",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
+
 import bpy
 import json
  

@@ -20,6 +20,19 @@
 # USAGE : This script save and load scene, cycles, and image settings.
 # This script is unstable! set path and uncomment the last lines! take care!
 
+bl_info = {
+    "name": "IO Presets",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
+
 import bpy
 import os
 import json

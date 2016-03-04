@@ -20,6 +20,18 @@
 # Uso Instrucciones: Crea un mesh con vertices a partir de un sistema de particulas. Seleccionar el objeto con las particulas y correr.
 # Make a mesh object from selected particle system. Select the particle system object and run.
 
+bl_info = {
+    "name": "Particles to Verticies",
+    "author": "Oscurart",
+    "version": (1,1),
+    "blender": (2, 70,0),
+    "api": ,
+    "location": "",
+    "description": "",
+    "warning": "",
+    "wiki_url": "oscurart.blogspot.com",
+    "tracker_url": "",
+    "category": ""}
 
 import bpy
 
